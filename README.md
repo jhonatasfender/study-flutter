@@ -1,4 +1,4 @@
-# Estudos do Flutter
+# Estrutura de Pastas, BLoC Pattern e Referências para um Desenvolvimento Escalável
 
 Neste estudo, estou buscando compreender o ponto inicial mais crucial para a apresentação de uma estrutura de pastas. Isso pode parecer algo simples, mas ao longo do projeto e à medida que ele cresce, torna-se cada vez mais impossível não dar atenção a esse aspecto. Ao observar pessoas trabalhando e realizando commits devido à velocidade e exigências de entrega, muitas vezes a organização do projeto é deixada em segundo plano. Durante meus estudos no Flutter, não encontrei uma abordagem clara e explícita para uma estrutura adequada em projetos corporativos, que permita crescimento sem preocupações com desorganização. Este é um ponto crucial.
 
