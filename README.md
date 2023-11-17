@@ -158,7 +158,7 @@ Tratamos dos arquivos padrão; agora, abordaremos duas partes essenciais deste a
 A seguir, apresentaremos uma possível estrutura dentro da pasta `lib`:
 
 - **`lib/`**
-  - **`src/`**: Esta subpasta abriga o código-fonte principal da aplicação. É comum ter um diretório `src` para diferenciar o código específico da aplicação de outros recursos.
+  - **`src/`**: Esta subpasta abriga o código-fonte principal da aplicação. É comum ter um diretório `src` ("source" [fonte]) para diferenciar o código específico da aplicação de outros recursos.
     - **`widgets/`**: Contém widgets personalizados reutilizáveis em diferentes partes da aplicação, promovendo a modularidade e a manutenção simplificada.
     - **`screens/`**: Aqui ficam as diferentes telas (ou páginas) da aplicação, cada uma em seu próprio arquivo para facilitar a manutenção e a compreensão.
     - **`models/`**: Esta seção engloba as classes de modelo que representam dados na aplicação. Manter essas classes organizadas facilita a gestão e a evolução do modelo de dados.
@@ -166,11 +166,11 @@ A seguir, apresentaremos uma possível estrutura dentro da pasta `lib`:
   - **`main.dart`**: O ponto de entrada principal da aplicação, onde é feita a inicialização e configuração do Flutter.
   - **`constants.dart`**: Arquivo para armazenar constantes utilizadas em toda a aplicação, proporcionando uma centralização desses valores.
 
-Esta estrutura é projetada para promover a modularidade e a clareza no desenvolvimento, tornando a aplicação mais fácil de entender e manter. A organização por funcionalidade facilita a localização de código relacionado, contribuindo para um código mais limpo e eficiente.
+Esta estrutura foi concebida com o objetivo de promover a modularidade e a clareza no desenvolvimento, tornando a aplicação mais fácil de compreender e manter ao longo do tempo. A organização por funcionalidade é uma abordagem que simplifica a localização de código relacionado, resultando em um código mais limpo e eficiente.
 
-A estrutura apresentada se demonstra altamente eficiente para projetos menores, mas pode encontrar desafios ao ser escalada para projetos corporativos mais complexos. A organização por funcionalidade, conforme apresentada, tende a funcionar bem em contextos menores, facilitando a localização de código relacionado e promovendo uma abordagem mais modular. No entanto, em projetos corporativos, onde a escala é significativamente maior e a complexidade é mais acentuada, é comum encontrar estruturas que adotam uma organização mais orientada a módulos.
+Embora essa estrutura demonstre alta eficiência em projetos de menor escala, é importante observar que ao ser escalada para projetos corporativos mais complexos, podem surgir desafios. A organização por funcionalidade, conforme apresentada, tende a funcionar bem em contextos menores, facilitando a identificação de código relacionado e promovendo uma abordagem mais modular. No entanto, em projetos corporativos, onde a escala é consideravelmente maior e a complexidade é mais acentuada, é comum encontrar estruturas que adotam uma organização mais orientada a módulos.
 
-Sobre a questão da organização das pastas, isso dependerá de cada equipe. Aqui vou mencionar algumas facilidades de manter todos os arquivos em uma única pasta, prática comum no Java, e por que costumam deixar todos os arquivos em um único local:
+Quanto à questão da organização de pastas, é importante destacar que essa decisão pode variar entre equipes. No entanto, é comum observar a prática de manter todos os arquivos em uma única pasta, especialmente em linguagens como Java. Isso é adotado por algumas equipes devido à facilidade de localização e manutenção. No entanto, é fundamental considerar as necessidades específicas do projeto e da equipe ao tomar decisões sobre a organização do código.
 
 #### Organização em uma única pasta:
 1. **Facilidade de acesso**: Ter todos os arquivos em uma única pasta pode facilitar o acesso rápido e a navegação, especialmente para projetos pequenos ou quando a equipe está mais familiarizada com a estrutura.
